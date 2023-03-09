@@ -16,6 +16,8 @@ export type ESFunctionType =
 
 export type ESClass = TSESTree.ClassDeclaration | TSESTree.ClassExpression;
 
+export type ESInterface = TSESTree.TSInterfaceDeclaration;
+
 export type ESLoop =
   | TSESTree.DoWhileStatement
   | TSESTree.ForInStatement
